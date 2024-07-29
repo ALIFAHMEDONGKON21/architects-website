@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.display-flex{
+     display: flex;
+}
+ /* nav style */
+
+ .navbar{
+    justify-content: space-between;
+    text-align: center;
+
+ }
+ .navbar{
+    width: 1440px;
+    margin: 0% auto;
+ }
+ .nav-links{
+    font-weight: 500px;
+    font-size: 18px;
+ }
+ .nav-link{
+    text-decoration: none;
+    text-emphasis: none;
+ }
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
