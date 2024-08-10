@@ -146,7 +146,20 @@ grid-template-columns:repeat(2 ,1fr);
    max-width: 540px;
 }
 
+.sponsor-info{
+   max-width: 540px;
+   margin: 50px auto;
+   text-align: center;
+}
 
+.sponsor-companies{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-companies img{
+   filter: grayscale(100%);
+}
 
 /*  */
 @media screen and (max-width: 576px){
@@ -164,4 +177,25 @@ grid-template-columns:repeat(2 ,1fr);
    .our-features{
       margin-left: 20px;
    }
+   .fact-taxt-cantiner{
+      text-align: center;
+      align-items: center;
+   }
+   .fact-taxt-cantiner p{
+      text-align: center;
+   }
+   .facts_container{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   justify-items: center;
+   gap: 30px;
+   }
+   .sponsor-companies{
+      
+      grid-template-columns: repeat(1,1fr);
+   }
+   .sponsor-companies{
+      justify-items: center;
+      gap: 50px;
+  }
 }
