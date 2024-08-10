@@ -15,6 +15,9 @@ main >section{
 .display-flex{
      display: flex;
 }
+.text-primary{
+   color:rgba(255, 144, 14, 1)
+}
 /* dark 01 */
 .dark_one{
    color: rgb(19, 19, 19);
@@ -89,14 +92,47 @@ main >section{
   
 }
 /* main part */
+.teams{
+   align-items: center;
+}
+.team-img-continar{
+display: grid;
+grid-template-columns:repeat(2 ,1fr);
+   gap: 30px;
+   
+}
+.our-features{
+   margin-left: 130px;
+   max-width: 530px;
+   text-align: center;
+}
+
+.section-title{
+   font-size: 2.8rem;
+   font-weight: 700;
+}
+#quick-list{
+   font-weight: 500;
+}
 
 
 
 
 
 /*  */
-@media screen and( max-width: 576px){
+@media screen and (max-width: 576px){
     .nav-links ,.navbar{
       flex-direction: column;
     }
+}
+@media screen and (max-width: 576px){
+   .teams{
+      flex-direction: column;
+   }
+   .team-img-continar{
+     grid-template-columns: repeat(1,1fr);
+   }
+   .our-features{
+      margin-left: 20px;
+   }
 }
